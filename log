@@ -56,3 +56,33 @@ exercises.c:44:21: error: expected expression before ‘]’ token
       |                     ^
 Compilation failed
 f3b530b
+Fri 12 Aug 2022 01:30:53 PM UTC: 
+ exercises.c | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaNultimos’:
+exercises.c:44:21: error: expected expression before ‘]’ token
+   44 |   *suma = t-sumaN(a[], n);
+      |                     ^
+exercises.c: In function ‘crearPersona’:
+exercises.c:63:4: error: ‘p’ is a pointer; did you mean to use ‘->’?
+   63 |   p.nombre=
+      |    ^
+      |    ->
+exercises.c:66:4: error: expected expression before ‘return’
+   66 |    return NULL;
+      |    ^~~~~~
+exercises.c:62:12: error: variable ‘p’ set but not used [-Werror=unused-but-set-variable]
+   62 |   Persona* p;
+      |            ^
+exercises.c: In function ‘sumaV’:
+exercises.c:111:10: error: invalid operands to binary + (have ‘Vector *’ and ‘Vector *’)
+  111 |   *c = a +b ;
+      |          ^
+exercises.c: In function ‘crearPersona’:
+exercises.c:67:1: error: control reaches end of non-void function [-Werror=return-type]
+   67 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+3a4d11f
