@@ -35,3 +35,14 @@ exercises.c:44:12: error: ‘t’ may be used uninitialized in this function [-W
 cc1: all warnings being treated as errors
 Compilation failed
 05fb24d
+Fri 12 Aug 2022 12:58:35 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaNultimos’:
+exercises.c:44:21: error: ‘i’ undeclared (first use in this function)
+   44 |   *suma = t-sumaN(a[i], n);
+      |                     ^
+exercises.c:44:21: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+e79632c
