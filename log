@@ -14,3 +14,13 @@ exercises.c:21:5: note: declared here
       |     ^~~~~
 Compilation failed
 b17c33c
+Fri 12 Aug 2022 12:58:03 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaNultimos’:
+exercises.c:44:21: error: expected expression before ‘]’ token
+   44 |   *suma = t-sumaN(a[], n);
+      |                     ^
+Compilation failed
+b850b75
