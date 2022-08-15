@@ -86,3 +86,22 @@ exercises.c:67:1: error: control reaches end of non-void function [-Werror=retur
 cc1: all warnings being treated as errors
 Compilation failed
 3a4d11f
+Mon 15 Aug 2022 02:14:51 AM UTC: 
+ exercises.c | 35 ++++++++++++++++++++++++++---------
+ 1 file changed, 26 insertions(+), 9 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaNultimos’:
+exercises.c:44:21: error: expected expression before ‘]’ token
+   44 |   *suma = t-sumaN(a[], n);
+      |                     ^
+exercises.c: In function ‘crearVector’:
+exercises.c:87:5: error: statement with no effect [-Werror=unused-value]
+   87 |   v -> capacidad n;
+      |   ~~^~~~~~~~~~~~
+exercises.c:87:17: error: expected ‘;’ before ‘n’
+   87 |   v -> capacidad n;
+      |                 ^~
+      |                 ;
+cc1: all warnings being treated as errors
+Compilation failed
+293fc10
