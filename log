@@ -164,3 +164,9 @@ exercises.c:40:7: error: unused variable ‘t’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 edd0dc9
+Mon 15 Aug 2022 02:37:58 AM UTC: 
+ exercises.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  7|1
+total_score: 60/70
+64dd181
