@@ -124,3 +124,22 @@ exercises.c:87:15: error: expected ‘;’ before ‘n’
 cc1: all warnings being treated as errors
 Compilation failed
 4d66a61
+Mon 15 Aug 2022 02:15:50 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaNultimos’:
+exercises.c:44:21: error: expected expression before ‘]’ token
+   44 |   *suma = t-sumaN(a[], n);
+      |                     ^
+exercises.c: In function ‘crearVector’:
+exercises.c:87:4: error: statement with no effect [-Werror=unused-value]
+   87 |   v->capacidad n;
+      |   ~^~~~~~~~~~~
+exercises.c:87:15: error: expected ‘;’ before ‘n’
+   87 |   v->capacidad n;
+      |               ^~
+      |               ;
+cc1: all warnings being treated as errors
+Compilation failed
+bf18518
