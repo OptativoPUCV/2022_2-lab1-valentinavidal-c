@@ -153,3 +153,14 @@ exercises.c:44:21: error: expected expression before ‘]’ token
       |                     ^
 Compilation failed
 83ee7fb
+Mon 15 Aug 2022 02:37:50 AM UTC: 
+ exercises.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaNultimos’:
+exercises.c:40:7: error: unused variable ‘t’ [-Werror=unused-variable]
+   40 |   int t;
+      |       ^
+cc1: all warnings being treated as errors
+Compilation failed
+edd0dc9
